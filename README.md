@@ -16,7 +16,7 @@ streamlit run app.py
 | 1 | Download LISS-IV | `python scripts/download_ner.py --start 2026-01-20 --end 2026-01-29 --region Assam` |
 | 2 | Stack BAND2/3/4 (2048 px, ~5 MB/scene) | `python scripts/process_bhoonidhi.py --input data/raw/liss4 --role cloudy` |
 | 3 | Train on LISS-IV data | `python -m fusion.train --data-root data/fusion --epochs 10` |
-| 4 | Side-by-side output | `python scripts/generate_viz.py --pairs 2` |
+| 4 | Output | `python scripts/generate_viz.py --pairs 2` |
 
 ## Output format (ISRO poster)
 
@@ -44,6 +44,7 @@ Credentials in `.env`: `BHOONIDHI_USER_ID`, `BHOONIDHI_PASSWORD`
 
 DCMF-UNet: dual-encoder SAR + optical fusion GAN (`fusion/`)
 
+<!--
 ## Train on Google Colab (GPU)
 
 Use the self-contained folder **`colab_training/`**:
@@ -54,3 +55,5 @@ Use the self-contained folder **`colab_training/`**:
 4. Download `fusion_generator.pt` → place in `outputs/checkpoints/` on your PC
 
 See `colab_training/README.md` for details.
+-->
+
