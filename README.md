@@ -44,6 +44,10 @@ Credentials in `.env`: `BHOONIDHI_USER_ID`, `BHOONIDHI_PASSWORD`
 
 DCMF-UNet: dual-encoder SAR + optical fusion GAN (`fusion/`)
 
+## Sample Output
+<img width="604" height="300" alt="image" src="https://github.com/user-attachments/assets/861e93db-4bd0-4029-9a83-0c0e70a0268e" />
+
+
 <!--
 ## Train on Google Colab (GPU)
 
