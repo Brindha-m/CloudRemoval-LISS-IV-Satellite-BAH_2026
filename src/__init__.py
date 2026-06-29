@@ -1,0 +1,1 @@
+"""Cloud-removal pipeline modules."""

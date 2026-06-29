@@ -1,0 +1,9 @@
+streamlit
+numpy
+pillow
+requests
+torch
+torchvision
+scikit-image
+# Optional: GeoTIFF read/write for fusion.infer and preprocess.coregister
+rasterio>=1.3.0
