@@ -1,0 +1,1 @@
+raw GeoTIFF files from bhoonidhi for all three bands(Green, Red, and NIR)
