@@ -13,7 +13,7 @@ streamlit run app.py
 
 | Step | What | Command |
 |------|------|---------|
-| 1 | Download LISS-IV | `python scripts/download_ner.py --start 2026-01-20 --end 2026-01-29 --region Assam` |
+| 1 | Download LISS-IV | `python scripts/download_ner.py --start 2026-03-01 --end 2026-04-29 --region Assam` |
 | 2 | Stack BAND2/3/4 (2048 px, ~5 MB/scene) | `python scripts/process_bhoonidhi.py --input data/raw/liss4 --role cloudy` |
 | 3 | Train on LISS-IV data | `python -m fusion.train --data-root data/fusion --epochs 10` |
 | 4 | Output | `python scripts/generate_viz.py --pairs 2` |
