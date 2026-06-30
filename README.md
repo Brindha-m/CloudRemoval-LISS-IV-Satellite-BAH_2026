@@ -47,6 +47,7 @@ DCMF-UNet: dual-encoder SAR + optical fusion GAN (`fusion/`)
 ## Sample Output
 <img width="604" height="300" alt="image" src="https://github.com/user-attachments/assets/861e93db-4bd0-4029-9a83-0c0e70a0268e" />
 
+<img width="604" height="300" alt="sample" src="https://github.com/user-attachments/assets/63b76878-30f5-485a-84e2-913ceb7a4a32" />
 
 <!--
 ## Train on Google Colab (GPU)
